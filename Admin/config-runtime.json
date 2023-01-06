@@ -28,9 +28,13 @@
       "type": "stateless",
       "services": [
         {
-          "className": "aDocumentationService"
+            "className": "aInsuranceWebService"
+        },
+        {   
+            
+            "className": "aDocumentationService"
         }
-      ]
+    ]
     },
     "stateful": {
       "type": "stateful",

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-15" ?>
+<testsuites><testsuite name="aXXX_UT_aUTF_WLI_Person" tests="6" disabled="0" errors="0" failures="0"><testcase name="Testing_Person_IsAMinorAtDate_NewPersonAsMinor" assertions="1" classname="aXXX_UT_aUTF_WLI_Person" status="passed" time="0"><system-out><![CDATA[
+#Properties
+#Assertions
+Testing if a new person of age 12 is a minor using person.IsAMinor : passed, success
+]]></system-out></testcase><testcase name="Testing_Person_IsAMinor_NewPersonAsMajor" assertions="1" classname="aXXX_UT_aUTF_WLI_Person" status="passed" time="0"><system-out><![CDATA[
+#Properties
+#Assertions
+Testing if a new person of age 40 is a not minor using person.IsAMinor : passed, success
+]]></system-out></testcase><testcase name="Test_Person_IsAMinorAtDate_NoMockup" assertions="3" classname="aXXX_UT_aUTF_WLI_Person" status="passed" time="0"><system-out><![CDATA[
+#Properties
+#Assertions
+Testing if a new person of age 10 is a not minor when minority application context is NIL : passed, success
+Testing if a new person of age 20 is a not minor when minority application context is NIL : passed, success
+Testing if a new person of age 30 is a not minor when minority application context is NIL : passed, success
+]]></system-out></testcase><testcase name="Test_Person_IsAMinorAtDate_WhenPersonMinorityContextMockIsNil" assertions="4" classname="aXXX_UT_aUTF_WLI_Person" status="passed" time="0"><system-out><![CDATA[
+#Properties
+aUTF_WLIMinorPersonConfigurationContext:Nil
+AtDate:CurrentDate
+person.Age:10
+aUTF_WLIMinorPersonConfigurationContext:Nil
+AtDate:CurrentDate
+person.Age:20
+aUTF_WLIMinorPersonConfigurationContext:Nil
+AtDate:CurrentDate
+person.Age:30
+#Assertions
+Testing if a new person of age 10 is a not minor when minority application context is NIL : passed, success
+Testing if a new person of age 20 is a not minor when minority application context is NIL : passed, success
+Testing if a new person of age 30 is a not minor when minority application context is NIL : passed, success
+Context.GetContext called 3 times : passed, success
+]]></system-out></testcase><testcase name="Test_Person_IsAMinorAtDate_WhenPersonMinorityContextMockIs18YO" assertions="4" classname="aXXX_UT_aUTF_WLI_Person" status="passed" time="0"><system-out><![CDATA[
+#Properties
+aUTF_WLIMinorPersonConfigurationContext:aWLIMinorPersonConfigurationContext(18)
+AtDate:CurrentDate
+person.Age:10
+aUTF_WLIMinorPersonConfigurationContext:aWLIMinorPersonConfigurationContext(18)
+AtDate:CurrentDate
+person.Age:20
+aUTF_WLIMinorPersonConfigurationContext:aWLIMinorPersonConfigurationContext(18)
+AtDate:CurrentDate
+person.Age:30
+#Assertions
+Testing if a new person of age 10 is a not minor when minority application context is Minor under 18 : passed, success
+Testing if a new person of age 20 is a not minor when minority application context is Minor under 18 : passed, success
+Testing if a new person of age 30 is a not minor when minority application context is Minor under 18 : passed, success
+Context.GetContext called 3 times : passed, success
+]]></system-out></testcase><testcase name="Test_Person_IsAMinorAtDate_WhenPersonMinorityContextMockIs21YO" assertions="4" classname="aXXX_UT_aUTF_WLI_Person" status="passed" time="0"><system-out><![CDATA[
+#Properties
+aUTF_WLIMinorPersonConfigurationContext:aWLIMinorPersonConfigurationContext(21)
+AtDate:CurrentDate
+person.Age:10
+aUTF_WLIMinorPersonConfigurationContext:aWLIMinorPersonConfigurationContext(21)
+AtDate:CurrentDate
+person.Age:20
+aUTF_WLIMinorPersonConfigurationContext:aWLIMinorPersonConfigurationContext(21)
+AtDate:CurrentDate
+person.Age:30
+#Assertions
+Testing if a new person of age 10 is a not minor when minority application context is Minor under 21 : passed, success
+Testing if a new person of age 20 is a not minor when minority application context is Minor under 21 : passed, success
+Testing if a new person of age 30 is a not minor when minority application context is Minor under 21 : passed, success
+Context.GetContext called 3 times : passed, success
+]]></system-out></testcase></testsuite><testsuite name="aTest_aInsuranceWebService" tests="1" disabled="0" errors="0" failures="0"><testcase name="Testing_aInsuranceWebService_Version" assertions="1" classname="aTest_aInsuranceWebService" status="passed" time="0"><system-out><![CDATA[
+#Properties
+#Assertions
+Testing if the version is correct : passed, success
+]]></system-out></testcase></testsuite></testsuites>
