@@ -1,6 +1,7 @@
 var { command, file, directory, print } = require("@ewam/script.cli")
 const Path = require("path")
 
+
 function copyTGVs(artifactName) {
   command.exec("npm install " + artifactName)
   print.info(`copying ${artifactName} tgvs`)

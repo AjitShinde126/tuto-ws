@@ -1,0 +1,90 @@
+Start at: 10:22:02
+===========================================
+Starting Test for aXXX_UT_aUTF_WLI_Person
+10:22:02
+===========================================
+*********************************************
+Starting Test for aXXX_UT_aUTF_WLI_Person::Testing_Person_IsAMinorAtDate_NewPersonAsMinor
+10:22:02
+*********************************************
+End Test for aXXX_UT_aUTF_WLI_Person::Testing_Person_IsAMinorAtDate_NewPersonAsMinor
+0 Error(s) detected
+10:22:03
+*********************************************
+
+*********************************************
+Starting Test for aXXX_UT_aUTF_WLI_Person::Testing_Person_IsAMinor_NewPersonAsMajor
+10:22:03
+*********************************************
+End Test for aXXX_UT_aUTF_WLI_Person::Testing_Person_IsAMinor_NewPersonAsMajor
+0 Error(s) detected
+10:22:03
+*********************************************
+
+*********************************************
+Starting Test for aXXX_UT_aUTF_WLI_Person::Test_Person_IsAMinorAtDate_NoMockup
+10:22:03
+*********************************************
+End Test for aXXX_UT_aUTF_WLI_Person::Test_Person_IsAMinorAtDate_NoMockup
+0 Error(s) detected
+10:22:03
+*********************************************
+
+*********************************************
+Starting Test for aXXX_UT_aUTF_WLI_Person::Test_Person_IsAMinorAtDate_WhenPersonMinorityContextMockIsNil
+10:22:03
+*********************************************
+End Test for aXXX_UT_aUTF_WLI_Person::Test_Person_IsAMinorAtDate_WhenPersonMinorityContextMockIsNil
+0 Error(s) detected
+10:22:03
+*********************************************
+
+*********************************************
+Starting Test for aXXX_UT_aUTF_WLI_Person::Test_Person_IsAMinorAtDate_WhenPersonMinorityContextMockIs18YO
+10:22:03
+*********************************************
+End Test for aXXX_UT_aUTF_WLI_Person::Test_Person_IsAMinorAtDate_WhenPersonMinorityContextMockIs18YO
+0 Error(s) detected
+10:22:03
+*********************************************
+
+*********************************************
+Starting Test for aXXX_UT_aUTF_WLI_Person::Test_Person_IsAMinorAtDate_WhenPersonMinorityContextMockIs21YO
+10:22:03
+*********************************************
+End Test for aXXX_UT_aUTF_WLI_Person::Test_Person_IsAMinorAtDate_WhenPersonMinorityContextMockIs21YO
+0 Error(s) detected
+10:22:03
+*********************************************
+
+===========================================
+End Test for aXXX_UT_aUTF_WLI_Person
+Nb Tests: 6
+Nb Errors: 0
+10:22:03
+===========================================
+===========================================
+Starting Test for aTest_aInsuranceWebService
+10:22:03
+===========================================
+*********************************************
+Starting Test for aTest_aInsuranceWebService::Testing_aInsuranceWebService_Version
+10:22:03
+*********************************************
+End Test for aTest_aInsuranceWebService::Testing_aInsuranceWebService_Version
+0 Error(s) detected
+10:22:03
+*********************************************
+
+===========================================
+End Test for aTest_aInsuranceWebService
+Nb Tests: 1
+Nb Errors: 0
+10:22:03
+===========================================
+ 
+Total No of Test Classes: 2
+Total No of Tests: 7
+Total No of Errors: 0
+End at: 10:22:03
+Elapsed time: 1 s
