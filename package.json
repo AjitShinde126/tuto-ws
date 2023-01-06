@@ -13,7 +13,8 @@
     "ewam:sync": "node ./scripts/call.js ewamconsole.exe /SYNCHRONIZEALL %*",
     "install:bundle:ewamex": "node ./scripts/installBundle.js --location ./Bundle/wxwamadvancedcomponents --name wxwamadvancedcomponents",
     "test": "npm-run-all test:*",
-    "devenv": "node ./scripts/launch_devenv.js"
+    "devenv": "node ./scripts/launch_devenv.js",
+    "test:js": "node test.js"
   },
   "repository": {
     "type": "git",
